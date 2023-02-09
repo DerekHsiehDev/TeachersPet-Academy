@@ -10,6 +10,8 @@ const config: DocsThemeConfig = {
   // <Image src={logo} width={50} height={50} my={10} onClick={() => navigate("/landing")} />
   //   <Text size={"xl"} weight={"bolder"} >'s pet</h>,
 
+
+
   logo: 
   <div style={{display: "flex", flexDirection: "row", alignItems: "center"}}>
     <strong style={{fontSize:  "20px"}}>teacher</strong>
@@ -20,16 +22,19 @@ const config: DocsThemeConfig = {
 
     ,
   project: {
-    link: 'https://github.com/shuding/nextra-docs-template',
+    link: 'https://github.com/DerekHsiehDev/TeachersPet-Academy',
   },
+  editLink: "https://github.com/DerekHsiehDev/TeachersPet-Academy/issues/new",
   // chat: {
   //   link: 'https://discord.com',
   // },
-  docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
+  docsRepositoryBase: 'https://github.com/DerekHsiehDev/TeachersPet-Academy',
   footer: {
     text: 'TeachersPet Academy',
   },
-
+  nextThemes: {
+      defaultTheme: "light",
+  },
   darkMode: false
 }
 
