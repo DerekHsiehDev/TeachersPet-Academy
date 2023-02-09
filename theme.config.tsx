@@ -24,7 +24,6 @@ const config: DocsThemeConfig = {
   project: {
     link: 'https://github.com/DerekHsiehDev/TeachersPet-Academy',
   },
-  editLink: "https://github.com/DerekHsiehDev/TeachersPet-Academy/issues/new",
   // chat: {
   //   link: 'https://discord.com',
   // },
